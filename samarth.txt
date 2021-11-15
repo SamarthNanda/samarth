@@ -1,0 +1,15 @@
+Compress / Decompress idea for solution
+
+1- read the string.
+2- create a compress function which take string as input parameter.
+3- run through the string and add each character and its frequency in a hashMap
+4- this hash map will hold the key value pair of the string which will be lesser in size from orignal string 
+
+the problem is that hashmap does not maintain the order of the character
+so we can create an array to some how keep track of the order of the character of the string.
+
+if we tackle the problem with order then we can create a Decompress function 
+5- decompress function will take in the hashmap and array as the input parameter
+6- then we can print the required string by using both data in order.
+
+hence the solution.
